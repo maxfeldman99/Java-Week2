@@ -4,6 +4,7 @@ public class Person {
     private String name;
     private long id;
     private int age;
+    private  int test;
 
     Person(String name, long id, int age) {
         this.name = name;
@@ -15,7 +16,8 @@ public class Person {
         this.name = "John doe";
     }
 
-    Person(String name, long id) {
+    Person(String name, long id)
+    {
         this.name = name;
         this.id = id;
         this.age = 30;
