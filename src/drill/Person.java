@@ -4,7 +4,6 @@ public class Person {
     private String name;
     private long id;
     private int age;
-    private  int test;
 
     Person(String name, long id, int age) {
         this.name = name;
